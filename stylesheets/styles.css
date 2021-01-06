@@ -108,6 +108,7 @@ header {
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
+		animation:fadein 0.5s;-moz-animation:fadein 1.0s;-webkit-animation:fadein 0.5s;
 }
 
 header ul {
@@ -216,8 +217,6 @@ footer {
     border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
-	
-				animation:fadein 0.5s;-moz-animation:fadein 1.0s;-webkit-animation:fadein 0.5s;
   }
 
   header a small {
