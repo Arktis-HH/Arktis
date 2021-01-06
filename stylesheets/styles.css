@@ -108,7 +108,7 @@ header {
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
-		animation:fadein 1.5s;-moz-animation:fadein 11.0s;-webkit-animation:fadein 10.5s;
+		animation:fadein 11.5s;-moz-animation:fadein 111.0s;-webkit-animation:fadein 110.5s;
 }
 
 header ul {
