@@ -11,6 +11,46 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+    <style>
+      .saturate { 
+      filter: saturate(3); 
+      -webkit-filter: saturate(3);
+      }
+      .grayscale {
+      filter: grayscale(100%);
+      -webkit-filter: grayscale(100%); 
+      }
+      .contrast { 
+      filter: contrast(160%); 
+      -webkit-filter: contrast(160%); 
+      }
+      .brightness {
+      filter: brightness(0.25); 
+      -webkit-filter:brightness(0.25);
+      }
+      .blur { 
+      filter: blur(3px);
+      -webkit-filter: blur(3px); 
+      }
+      .invert { 
+      filter: invert(100%); 
+      -webkit-filter: invert(100%); 
+      }
+      .sepia { 
+      filter: sepia(100%); 
+      -webkit-filter: sepia(100%);
+      }
+      .huerotate { 
+      filter: hue-rotate(180deg); 
+      -webkit-filter: hue-rotate(180deg); 
+      }
+      .opacity { 
+      filter: opacity(50%);
+      -webkit-filter: opacity(50%);
+      }
+    </style>
+
   </head>
   <body>
     <div class="wrapper">
@@ -48,7 +88,7 @@
 <p>A R K T I S</br>
 <b>is back.</b></p>
 
-<p><img src="https://raw.githubusercontent.com/Arktis-HH/Arktis/master/assets/img/Arktis01.jpg" style="vertical-align:middle"></p>
+<p><img src="https://raw.githubusercontent.com/Arktis-HH/Arktis/master/assets/img/Arktis01.jpg" class="saturate" style="vertical-align:middle"></p>
 
 <p>Die Vergangenheit liegt in der Zukunft. </br>
 Demnächst mehr..</br>
@@ -61,7 +101,7 @@ Demnächst mehr..</br>
       </section>
 
       <footer>
--0+
+- 0 +
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
