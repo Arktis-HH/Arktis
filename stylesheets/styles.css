@@ -112,7 +112,7 @@ header {
   width:140px;
   float:right;
 /*  float:left; */
-  position:fixed;
+/*  position:fixed; */
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -347,29 +347,6 @@ footer {
 
 
 /* check */
-
-.container {
-   margin: 100px;
-}
-
-.box {
-  background: steelblue; 
-  border-radius: 5px;
-  display: inline-block;
-  height: 80px;
-  margin: 20px;
-  width: 80px;
-  
-  .container:hover & {
-    transform: scale(1.4);
-  }
-}
-
-.box1 {
-  transition: all 1.3s;
-}
-
-.box2 {
   transition: all 1.3s 0.5s;
 }
 
