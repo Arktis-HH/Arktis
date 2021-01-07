@@ -287,7 +287,7 @@ footer {
 /*  font-size: 10vw; */
 /*  font-weight: 900;  */
   font-size: 2em;
-  font-weight: 9; 
+  font-weight: 16; 
   text-decoration: none;
   color: white;
   display: inline-block;
@@ -305,15 +305,15 @@ footer {
                     #6E6E6E,
                     #FFFFFF,
                     #19070B);
-  animation: .8s shake infinite alternate;
+  animation: .2s shake infinite alternate;
 }
 
 @keyframes shake {
-  0% { transform: skewX(-15deg); }
+  0% { transform: skewX(-5deg); }
   5% { transform: skewX(10deg); }
-  10% { transform: skewX(-10deg); }
-  15% { transform: skewX(15deg); }
-  20% { transform: skewX(0deg); }
+  10% { transform: skewX(-5deg); }
+  15% { transform: skewX(5deg); }
+  20% { transform: skewX(-5deg); }
   100% { transform: skewX(0deg); }  
 }
 
@@ -347,9 +347,3 @@ footer {
 
 
 /* check */
-  transition: all 1.3s 0.5s;
-}
-
-.box3 {
-  transition: all 1.3s 1s;
-}
