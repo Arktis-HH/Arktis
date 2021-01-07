@@ -320,7 +320,7 @@ footer {
 }
 
 .shake2 {
-  transition: all 4s 1s;
+  transition: all 3s 1s;
 /*	*/
   position: relative;
   text-transform: uppercase;
@@ -346,7 +346,7 @@ footer {
                     #6E6E6E,
                     #FFFFFF,
                     #19070B);
-  animation: .3s shake2 infinite alternate;
+  animation: .3s shake infinite alternate;
 }
 
 @keyframes shake {
