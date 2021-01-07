@@ -282,8 +282,8 @@ footer {
   position: relative;
   text-transform: uppercase;
   letter-spacing: 6px;
-  font-size: 10vw;
-  font-weight: 900;
+/*  font-size: 10vw; */
+/*  font-weight: 900; */
   text-decoration: none;
   color: white;
   display: inline-block;
@@ -297,10 +297,10 @@ footer {
   background-clip: text;
   text-fill-color: transparent;
   background-image: linear-gradient(45deg, 
-                    #7794ff, 
-                    #44107A,
-                    #FF1361,
-                    #FFF800);
+                    #19070B, 
+                    #6E6E6E,
+                    #FFFFFF,
+                    #000000);
   animation: .8s shake infinite alternate;
 }
 
