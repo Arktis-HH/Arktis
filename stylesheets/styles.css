@@ -289,7 +289,7 @@ footer {
 }
 
 
-.shake {
+.shake1 {
   transition: all 3s 1s;
 /*	*/
   position: relative;
@@ -317,6 +317,36 @@ footer {
                     #FFFFFF,
                     #19070B);
   animation: .2s shake infinite alternate;
+}
+
+.shake2 {
+  transition: all 4s 1s;
+/*	*/
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+/*  font-size: 10vw; */
+/*  font-weight: 900;  */
+  font-size: 2em;
+  font-weight: 16; 
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  background-size: 120% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -ms-background-clip: text;
+  -ms-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  background-image: linear-gradient(45deg, 
+                    #000000, 
+                    #6E6E6E,
+                    #FFFFFF,
+                    #19070B);
+  animation: .3s shake infinite alternate;
 }
 
 @keyframes shake {
