@@ -279,6 +279,15 @@ footer {
 }
 
 
+.past {
+  text-transform: uppercase;
+  letter-spacing: 6px;
+/*  font-size: 10vw; */
+/*  font-weight: 900;  */
+  font-size: 2em;
+  font-weight: 16; 
+}
+
 
 .shake {
   transition: all 3s 1s;
