@@ -110,7 +110,8 @@ img {
 
 header {
   width:140px;
-  float:left;
+  float:right;
+/*  float:left; */
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
 }
@@ -127,8 +128,7 @@ header ul {
 
 header li {
   width:89px;
-  float:right;
-/*  float:left; */
+  float:left;
   border-right:1px solid #e0e0e0;
   height:40px;
 }
