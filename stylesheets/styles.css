@@ -303,7 +303,7 @@ footer {
                     #6E6E6E,
                     #FFFFFF,
                     #000000);
-  animation: .8s shake infinite alternate;
+  animation: 8.8s shake infinite alternate;
 }
 
 @keyframes shake {
