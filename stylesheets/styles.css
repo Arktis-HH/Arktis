@@ -278,7 +278,7 @@ footer {
 
 
 
-h6 {
+.shake {
   position: relative;
   text-transform: uppercase;
   letter-spacing: 6px;
@@ -320,8 +320,8 @@ h6 {
             background-position: left top;
             padding-top:95px;
             margin-bottom:60px;
-            -webkit-animation-duration: 16s;
-            animation-duration: 16s;
+            -webkit-animation-duration: 12s;
+            animation-duration: 12s;
             -webkit-animation-fill-mode: both;
             animation-fill-mode: both;
          }
