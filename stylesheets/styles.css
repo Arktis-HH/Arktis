@@ -284,6 +284,8 @@ footer {
   letter-spacing: 6px;
 /*  font-size: 10vw; */
 /*  font-weight: 900; */
+  font-size: 10vw;
+  font-weight: 9; 
   text-decoration: none;
   color: white;
   display: inline-block;
